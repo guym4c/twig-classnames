@@ -1,0 +1,25 @@
+{
+    "name": "guym4c/twig-classnames",
+    "description": "classnames() for Twig",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/guym4c/twig-classnames",
+    "keywords": ["twig", "classnames", "clsx"],
+    "authors": [
+        {
+            "name": "Guy Mac",
+            "email": "hello@guymac.eu",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Guym4c\\TwigClassnames\\": "src/"
+        }
+    },
+    "require": {
+        "twig/twig": "^3.0",
+        "voku/portable-utf8": "^5.4"
+    }
+}
