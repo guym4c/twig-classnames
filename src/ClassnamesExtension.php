@@ -9,7 +9,7 @@ use voku\helper\UTF8;
 class ClassnamesExtension extends AbstractExtension {
 
     public function getFunctions(): array {
-        return [new TwigFunction('classnames', function (...$classes): string {
+        return [new TwigFunction('classNames', function (...$classes): string {
             $result = '';
             foreach ($classes as $arg) {
                 if (is_array($arg)) {
